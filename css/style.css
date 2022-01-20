@@ -1,0 +1,48 @@
+header{
+    background-color: rgb(230, 221, 215);
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif !important;
+    padding: auto;
+    
+}
+
+body{
+    background-color: rgb(231, 208, 178) !important;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+    font-family: 1rem;
+}
+h1 h2 h3 p {
+    background-color: black !important;
+    list-style-type: armenian !important;
+    font-family: 'Times New Roman', Times, serif !important;
+}
+
+
+footer{
+    background-color: rgb(230, 221, 215);
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif !important;
+    padding: auto;
+}
+
+
+div{
+    background-color: rgb(212, 186, 168);
+    text-align: left;
+    padding: auto;
+    font-family: 'Times New Roman', Times, serif !important;
+}
+
+a:visited{
+    color:rgb(61, 43, 43);
+}
+
+ul{
+    list-style:disc ;
+    font-family: cursive, 'Times New Roman', Times, serif;
+}
+li{
+    list-style: disc;
+    font-family: cursive, 'Times New Roman', Times, serif;
+}

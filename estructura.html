@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css-bt/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<header>
+    <h1>Clase de Boostrap</h1>
+</header>
+
+<body>
+    <div class="container pt-10   pb-10"></div>
+    <main>
+        
+            <h2>Estructura</h2>
+
+    <div>
+        <h3><p>
+        <ul>
+            <li>Tipografia</li>
+
+             Todos los tags de "h1" a "h6" están estilados por Bootstrap. También se puede utilizar el tag "small" para
+             mostrar un texto secundario
+
+             Otro ejemplo de estilo de texto puede ser para destacar un párrafo como en el siguiente ejemplo usando la
+             clase “lead”.
+
+             <li>Contenedores</li>
+
+             Cada contenedor tiene un ancho variable, que va a depender de la resolución de pantalla del usuario. Esto lo
+              averiguará Bootstrap, y va a setearle el ancho correspondiente.
+
+             En este caso, cuando el contendor es fluid, el ancho siempre será de 100%, brindándonos la posibilidad
+             renderizar un div full width.
+
+             El siguiente div a utilizar son los .row, que serán las filas en donde dividiremos el contenido del bloque,
+             que reacomodará los divs de su interior dependiendo siempre de la resolución del usuario. Dentro de los "div"
+             row, se indicarán los div con el sistema de grillas
+
+
+             <li>Sistema de Grilla</li>
+
+             La grilla se divide en 12 columnas, que varían su ancho dependiendo de la resolución del usuario móvil, o de
+             escritorio.
+
+             Estas columnas se ubican siempre dentro de una fila, el div .row mencionado anteriormente.
+
+             Se representa como col-md-x que indica que el div ocupará X columnas en un .container
+
+
+             Si quisiéramos que el mismo "div" ocupe 6 columnas en un dispositivo de 480px de ancho, deberíamos aplicarle
+             dos clases, para indicarle un comportamiento para cada resolución.
+         </ul>
+        </p></h3>
+    
+    </div>
+
+    <div class="text-center">
+
+        <img src="/imagenes/bootstrap.png" alt="bootstrap"
+
+        class="img-thumbnail w-50">
+
+    </div>
+
+    </main>
+    
+
+</body>
+
+<script src="/js.bt/bootstrap.min.js"></script>
+
+<footer>
+
+    <div class="container">
+    
+        <div class="row">
+           
+            <div class="col col-sm-6  col-md-6">
+           
+                        <h2>Clase de Boostrap</h2>         
+    
+            </div>
+            
+            <div class="col col -sm-6  col-md-6">
+    
+                        <h2><a href="index.html">Volver a la Pagina Principal</a></h2>
+        
+            </div>
+    
+        </div>
+    
+    </div>  
+    </footer>
+
+</html>
